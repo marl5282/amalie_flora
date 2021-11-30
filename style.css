@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+video {
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Baskerville", sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: "Baskerville", sans-serif;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
+
+/* ---------------------links og menu*/
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1px;
+  font-size: 1rem;
+  list-style: none;
+  overflow-x: auto;
+}
+
+nav a {
+  font-family: "Baskerville", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+nav a:hover {
+  color: black;
+}
